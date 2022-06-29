@@ -9,12 +9,13 @@ using System.Collections.Generic;
 #endregion
 
 namespace RevitTestAddin
-{
+{using System;
     internal class App : IExternalApplication
     {
         public Result OnStartup(UIControlledApplication a)
         {
-            TaskDialog.Show("Messge", "Hello!");
+            string msg_disp = "Hello " + string.Format(Environment.UserName) + "!";
+            TaskDialog.Show("Messge", msg_disp);
             return Result.Succeeded;
         }
 

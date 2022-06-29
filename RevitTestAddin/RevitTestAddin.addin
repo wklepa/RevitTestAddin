@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command RevitTestAddin</Text>
+    <Description>Some description for RevitTestAddin</Description>
+    <Assembly>RevitTestAddin.dll</Assembly>
+    <FullClassName>RevitTestAddin.Command</FullClassName>
+    <ClientId>422ACAAE-E930-40E4-AE36-4AD99A700611</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application RevitTestAddin</Name>
+    <Assembly>RevitTestAddin.dll</Assembly>
+    <FullClassName>RevitTestAddin.App</FullClassName>
+    <ClientId>0688E175-A233-4065-AD9C-ADBCEDFB08AC</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>
